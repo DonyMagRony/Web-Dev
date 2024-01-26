@@ -1,3 +1,4 @@
+!-- INTRO TO CSS
 <!DOCTYPE html>
 <html>
     <head>
@@ -25,6 +26,8 @@
         
     </body>
 </html>
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -50,7 +53,10 @@
         <h2 id="winter">Winter</h2>
         <p>He likes to stay in and cuddle</p>
     </body>
-</html><!DOCTYPE html>
+</html>
+
+
+                <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -114,3 +120,13 @@
 
     </body>
 </html>
+
+
+
+!-- project
+
+
+
+!--
+
+                

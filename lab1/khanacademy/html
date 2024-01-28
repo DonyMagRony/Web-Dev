@@ -227,11 +227,6 @@ Kangaroos are the only large animals to use hopping as a means of locomotion. Th
     <h1>John's Recipe Book</h1>
 
     <h2>Contents:</h2>
-
-    <ol>
-        <li><a href="#recipe1">Recipe #1</a></li>
-    </ol>
-
     <h2 id="recipe1">Recipe #1</h2>
 
     <ul>
@@ -275,10 +270,98 @@ Kangaroos are the only large animals to use hopping as a means of locomotion. Th
         <li>Pour the batter into a greased baking pan.</li>
         <li>Bake for 20-25 minutes or until a toothpick comes out clean.</li>
     </ol>
+<h2 id="recipe2">Recipe #2</h2>
 
-    <p><em>Source: <a href="#">Some recipes websites</a></em></p>
+    <ul>
+        <li>Time: 45 minutes</li>
+        <li>Serves: 6</li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Ingredients</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ingredient 1 (e.g., Chicken)</td>
+                <td>500g</td>
+            </tr>
+            <tr>
+                <td>Ingredient 2 (e.g., Potatoes)</td>
+                <td>4 medium-sized</td>
+            </tr>
+            <tr>
+                <td>Ingredient 3 (e.g., Carrots)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Ingredient 4 (e.g., Olive Oil)</td>
+                <td>2 tablespoons</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><strong>Steps:</strong></p>
+    <ol>
+        <li>Preheat the oven to 400°F (200°C).</li>
+        <li>Cut the chicken into pieces and season with salt and pepper.</li>
+        <li>Chop the potatoes and carrots into bite-sized pieces.</li>
+        <li>Place the chicken, potatoes, and carrots on a baking sheet.</li>
+        <li>Drizzle olive oil over the ingredients and toss to coat evenly.</li>
+        <li>Bake for 30-35 minutes or until the chicken is cooked through and vegetables are tender.</li>
+    </ol>
+
+
+    <h2 id="recipe3">Recipe #3</h2>
+
+    <ul>
+        <li>Time: 20 minutes</li>
+        <li>Serves: 2</li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Ingredients</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ingredient 1 (e.g., Pasta)</td>
+                <td>200g</td>
+            </tr>
+            <tr>
+                <td>Ingredient 2 (e.g., Tomato Sauce)</td>
+                <td>1 cup</td>
+            </tr>
+            <tr>
+                <td>Ingredient 3 (e.g., Parmesan Cheese)</td>
+                <td>1/4 cup</td>
+            </tr>
+            <tr>
+                <td>Ingredient 4 (e.g., Basil)</td>
+                <td>Fresh leaves for garnish</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><strong>Steps:</strong></p>
+    <ol>
+        <li>Cook the pasta according to package instructions.</li>
+        <li>Heat the tomato sauce in a pan.</li>
+        <li>Drain the cooked pasta and add it to the sauce, tossing to coat.</li>
+        <li>Serve the pasta topped with Parmesan cheese and garnished with fresh basil.</li>
+    </ol>
+
+   
 </body>
 </html>
+
+
 
 
 !-- project

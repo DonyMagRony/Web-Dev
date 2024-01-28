@@ -321,6 +321,75 @@ Great big words. La la la la la la la la la la!</p>
     
     </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Project: Blog</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        h1 {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            margin: 0;
+            text-align: center;
+        }
+
+        h3 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        h6 {
+            color: #666;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <h1>John's Blog</h1>
+
+    <h3>Contents</h3>
+    <ul>
+        <li><a href="#first-post">First post</a></li>
+        <li><a href="#second-post">Second post</a></li>
+    </ul>
+
+    <h2 id="first-post">First post</h2>
+    <h6>Posted on January 1, 2023</h6>
+
+    <p>Something exciting happened in my life, and I wanted to share it with you all. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec varius orci. Quisque tincidunt, metus vitae euismod scelerisque, felis nisi laoreet libero, a ultrices nisl metus a justo.</p>
+
+    <h2 id="second-post">Second post</h2>
+    <h6>Posted on February 15, 2023</h6>
+
+    
+
+</body>
+</html>
 
 !--Lesson 6: CSS layout
                 <!DOCTYPE html>
@@ -517,6 +586,76 @@ Great big words. La la la la la la la la la la!</p>
         <p><a href="http://en.wikipedia.org/wiki/Cloud">Read more on Wikipedia</a></p>
         
     </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Project: Event Invite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, p {
+            text-align: center;
+            color: #333;
+        }
+
+        h1 {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .invite-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="invite-container">
+        <h1>You're Invited!</h1>
+        <h2>To Something Special</h2>
+        
+        <p>Event Details:</p>
+        <ul>
+            <li><strong>Date:</strong> January 1, 2023</li>
+            <li><strong>Time:</strong> 7:00 PM</li>
+            <li><strong>Location:</strong> Your Venue Name, City</li>
+        </ul>
+
+        <p>We look forward to celebrating with you! Join us for an evening of joy and laughter.</p>
+
+
+        
+     
+    </div>
+
+</body>
 </html>
 
 !--More CSS selectors

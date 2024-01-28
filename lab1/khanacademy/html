@@ -185,5 +185,100 @@ Kangaroos are the only large animals to use hopping as a means of locomotion. Th
     </body>
 </html>
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #555;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>John's Recipe Book</h1>
+
+    <h2>Contents:</h2>
+
+    <ol>
+        <li><a href="#recipe1">Recipe #1</a></li>
+    </ol>
+
+    <h2 id="recipe1">Recipe #1</h2>
+
+    <ul>
+        <li>Time: 30 minutes</li>
+        <li>Serves: 4</li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Ingredients</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ingredient 1 (e.g., Flour)</td>
+                <td>1 cup</td>
+            </tr>
+            <tr>
+                <td>Ingredient 2 (e.g., Sugar)</td>
+                <td>200g</td>
+            </tr>
+            <tr>
+                <td>Ingredient 3 (e.g., Eggs)</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Ingredient 4 (e.g., Milk)</td>
+                <td>1/2 cup</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><strong>Steps:</strong></p>
+    <ol>
+        <li>Mix Ingredient 1 and Ingredient 2 in a bowl.</li>
+        <li>Add Ingredient 3 and mix well.</li>
+        <li>Pour in Ingredient 4 and stir until smooth.</li>
+        <li>Preheat the oven to 350°F (180°C).</li>
+        <li>Pour the batter into a greased baking pan.</li>
+        <li>Bake for 20-25 minutes or until a toothpick comes out clean.</li>
+    </ol>
+
+    <p><em>Source: <a href="#">Some recipes websites</a></em></p>
+</body>
+</html>
+
 
 !-- project

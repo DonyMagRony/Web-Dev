@@ -587,7 +587,11 @@ Great big words. La la la la la la la la la la!</p>
         
     </body>
 </html>
-<!DOCTYPE html>
+
+
+
+                project 
+                <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -648,15 +652,12 @@ Great big words. La la la la la la la la la la!</p>
             <li><strong>Location:</strong> Your Venue Name, City</li>
         </ul>
 
-        <p>We look forward to celebrating with you! Join us for an evening of joy and laughter.</p>
-
-
-        
-     
+        <p>We are waiting for you.</p>
     </div>
 
 </body>
 </html>
+
 
 !--More CSS selectors
                 <!DOCTYPE html>

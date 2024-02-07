@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Facebook
+    </title>
+    <link rel="shortcut icon" href="./images/facebook-icon.png" type="image/png">
+<style>
+    body {
+    padding: 0;
+    margin: 0;
+    background: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+@media only screen and (max-width: 800px) {
+    .title-box {
+        display: none;
+    }
+}
+.title-box {
+    width: 500px;
+    position :relative;
+    flex-basis: 454px;
+}
+.title-box img {
+    width: 235px;
+    margin-bottom: -10px;
+}
+.title-box p {
+    color: #000;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 32px;
+}
+.form-box {
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    margin-left: 60px;
+    box-shadow: 0px 2px 10px 1px rgba(71, 71, 71, 0.52);
+}
+.form-box input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid #eeebeb;
+    border-radius: 5px;
+    outline: none;
+}
+.form-box input:focus {
+    box-shadow: 0px 0px 1px 1px rgb(22, 111, 229);
+}
+.form-box button {
+    width: 100%;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 0;
+    cursor: pointer;
+    background: #166fe5;
+}
+.form-box button:hover {
+    background: #1877f2;
+}
+.form-box a {
+    color: #166fe5;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: block;
+}
+.form-box a:hover {
+    text-decoration: underline;
+}
+.form-box hr {
+    border: 1px solid #dadde1;
+    margin-top: 15px;
+}
+.form-box .create-btn a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: #36a420;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-box .create-btn a:hover {
+    background: #42b72a;
+}
+ul.languages {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.languages li {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+ul.languages li a {
+    text-decoration: none;
+    color: #808080; 
+    transition: color 0.3s ease; 
+}
+
+ul.languages li a:hover {
+    color: #007bff;
+}
+.down-box{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+.down-box hr{
+    border: 1px solid #585c62;
+    margin-top: 15px;
+    width: 75%;
+}
+
+</style>
+</head>
+<body>
+    <div class="Large-box">
+    <div class="box">
+        <div class="title-box">
+          <img src="https://i.postimg.cc/NMyj90t9/logo.png" alt="Facebook">
+          <p>Facebook помогае вам всегда оставаться на связи и общаться со своими знакомыми.</p>
+        </div>
+        <div class="form-box">
+          <form action="#">
+            <input type="text" placeholder="Email адрес или номер телефона">
+            <input type="password" placeholder="Пароль">
+            <button type="submit">Вход</button>
+            <a href="#">Забыли пароль</a>
+
+          </form>
+
+          <hr>
+
+          <div class="create-btn">
+            <a href="" target="_blank">Создать новый аккаунт</a>
+          </div>
+        </div>
+    </div>
+    
+        <div class="footer">
+        <div class="down-box">
+           <ul class="languages">
+            <li><a   href="https://ru-ru.facebook.com/" title="English">English</a></li>
+            <li><a href="https://ru-ru.facebook.com/"title="Russian" >Русский</a></li>
+            <li><a href="https://tr-tr.facebook.com/" title="Turkey" >Türkçe</a></li>
+            <li><a href="https://id-id.facebook.com/" title="Indonesian">Bahasa Indonesia</a></li>
+            <li><a href="https://zh-cn.facebook.com/"  title="Simplified Chinese (China)">中文(简体)</a></li>
+            <li><a href="https://kk-kz.facebook.com/" title="Kazakh">Қазақша</a></li>
+            <li><a href="https://de-de.facebook.com/" title="German">Deutsch</a></li>
+            <li><a href="https://ko-kr.facebook.com/"  return false;" title="Korean">한국어</a></li>
+            <li><a href="https://sq-al.facebook.com/"  title="Albanian">Shqip</a></li>
+            <li><a href="https://es-la.facebook.com/"  title="Spanish">Español</a></li>
+            <li><a href="https://pt-br.facebook.com/"  title="Portuguese (Brazil)">Português (Brasil)</a></li>
+            <hr>        
+        </ul>
+        
+        </div>
+        
+        <div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

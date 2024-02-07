@@ -1,0 +1,168 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  font-family: 'Segoe UI', Helvetica, sans-serif;
+}
+
+header{
+  background: #fff;
+  padding: 20px 80px 20px 80px;
+  overflow: hidden;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+/*GENERIC NAV*/
+nav{
+  display: flex; /*default row*/
+  /* justify-content: space-between; main axis */
+  align-items: center; /*cross axis*/
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+/*LEFT PART OF NAV*/
+#login_logo{
+  width: 35px;
+}
+
+.left_nav{
+  margin-left: 40px;
+  margin-right: 450px;
+}
+
+.left_nav a{
+  margin-right: 15px;
+}
+
+/*RIGHT PART OF NAV*/
+.right_nav{
+  display: flex;
+  align-items: center;
+}
+
+.right_nav img{
+  width: 20px;
+}
+.right_nav a{
+  margin-left: 10px;
+}
+
+.right_nav select{
+  border: none;
+}
+
+.micro_logo img{
+  width: 110px;
+}
+
+/*BANNER*/
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner img{
+  z-index: 0;
+  width: 99%;
+}
+
+/*TEXT IN BANNER*/
+.text{
+  position: absolute;
+  left: 150px;
+  top: 150px;
+  z-index: 1;
+  width: 600px;
+  color: black;
+}
+
+.text h1{
+  font-size: 35px;
+}
+
+.text_p{
+  margin-bottom: 20px;
+}
+
+/*BUTTONS IN TEXT*/
+#left_button{
+  color: white;
+  background-color: black;
+  width: 150px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 2px;
+  margin-right: 15px;
+}
+
+#left_button:hover{
+  background-color: rgb(88, 86, 86);
+}
+
+.text button{
+  color: black;
+  background-color: #494949;
+  width: 150px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 2px;
+}
+
+.text button:hover{
+  background-color: #ecf2f7;
+  cursor: pointer;
+}
+
+.text hr{
+  position: relative;
+  top: 4.0px;
+  display: inline-block;
+  width: 17px;
+  border: 0.5px solid;
+}
+
+
+/*SECTIONS*/
+.blocks{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 60px 0px 60px;
+  margin-bottom: 50px;
+}
+.blocks div{
+  width: 320px;
+  font-size: 14px;
+}
+
+.blocks p{
+  line-height: 24px;
+}
+
+.blocks h1{
+  font-weight: 550;
+}
+
+.blocks div a{
+  text-decoration: none;
+  color: #0a67a5;
+  font-weight: 600;
+}
+
+.blocks img{
+  width: 320px;
+}

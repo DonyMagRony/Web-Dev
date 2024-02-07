@@ -1,0 +1,250 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--body-bg);
+    color: var(--txt-color);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    flex-grow: 1;
+}
+
+.main-content {
+    margin: 32px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 935px;
+    flex-grow: 1;
+}
+
+.slide-container {
+    size:10%;
+    height: 500px;
+    flex-basis: 454px;
+}
+.slide-content{
+    position: relative;
+    width:370px ;
+    height: auto;
+    bottom: 50px;
+    right:-70px;
+}
+
+.box {
+    border: 1px solid rgb(208, 208, 208) ;
+    border-radius: 0.5px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.form-content {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.form-content .logo {
+    text-align: center;
+    height: 51px;
+    width: 175px;
+    margin: 22px auto 12px;
+}
+
+.form-content .logo img {
+    max-width: 100%;
+}
+
+.signin-form {
+    padding-top: 24px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin: 0 40px 6px;
+}
+
+.main-input {
+    height: 36px;
+    border: 1px gray solid;
+    border-radius: 3px;
+    position: relative;
+}
+
+.main-input input {
+    width: 100%;
+    height: 100%;
+    padding: 9px 8px 7px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(222, 220, 220);
+}
+
+.main-input button {
+    border: 0;
+    outline: 0;
+    display: inline;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: transparent;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: none;
+}
+
+.btn-group {
+    padding: 8px 40px;
+}
+
+.btn-login {
+    color:rgb(181, 178, 178);
+    width: 100%;
+    border: 1px solid transparent;
+    outline: 0;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 5px 9px;
+    border-radius: 4px;
+   
+}
+button:disabled {
+    background-color: rgba(0, 149, 246, 0.3);
+}
+
+
+.divine {
+    padding: 10px 40px 18px;
+    display: flex;
+}
+
+.divine div:nth-child(2) {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    color: var(--txt-second-color);
+}
+
+.divine div:nth-child(1),
+.divine div:nth-child(3) {
+    flex-grow: 1;
+    height: 1px;
+    position: relative;
+    top: 0.45em;
+}
+
+.btn-fb {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-fb img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.btn-fb span {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.forgot-pw {
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.app-download {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-download p {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.store-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 15px;
+    
+}
+.store-link a img {
+    height: 40px;
+}
+.store-link a:nth-child(1) {
+    margin-right: 8px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.link1{
+    color:#0b3b5b
+}
+.link2{
+    color: #0095f6;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+    color: #8a8a8a;
+    line-height: 24px;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #8a8a8a;
+    font-weight: 400;
+    margin-right: 17px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer select{
+    background-color:#f0f2f5 ;
+    border: none;
+    font-size: 13px;
+    color: #8a8a8a;
+    margin-right: 17px;
+    margin-left: -3px;
+}
+@media only screen and (max-width: 800px) {
+    .slide-container {
+        display: none;
+    }
+}

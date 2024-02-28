@@ -1,0 +1,40 @@
+<div *ngIf="categoryItem" class="item">
+  <div class="content">
+      <img [ngClass]="{
+        'phone': categoryItem.category === 'phone',
+        'laptop': categoryItem.category === 'laptop',
+        'Home': categoryItem.category === 'Home',
+        'TV': categoryItem.category === 'TV'
+      }" src="{{categoryItem.image[0]}}" >
+    
+      <div class="text">
+          <h3>
+            <a
+              [title]="categoryItem.name + ' details'"
+              [routerLink]="['/products', categoryItem.id]"
+            >
+              {{ categoryItem.name }}
+            </a>
+          </h3>
+    
+          <p *ngIf="categoryItem.description" class="description">Description: {{ categoryItem.description }}</p>
+      </div>
+  </div>
+  <div class="actions">
+      <button type="button" (click)="share(categoryItem)">
+          Share on Telegram
+      </button> 
+    
+      <app-product-alerts [product]="categoryItem" (notify)="onNotify()">
+      </app-product-alerts>
+
+      <button type="button" (click)="removeOut()">
+        Remove This Item
+      </button>
+
+      <button type="button" (click)="like()">
+        Like This Item {{ categoryItem.like }}
+      </button>
+      
+  </div>
+</div>

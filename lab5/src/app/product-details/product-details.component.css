@@ -1,0 +1,29 @@
+img{
+    position: relative;
+    width: 200px;
+    height: auto;
+    display:block;
+}
+button {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+span{
+    position: relative;
+    display: block;
+}
+.kart{
+    border: 1px solid black;
+}
+.rating-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .l1 {
+    margin-top:20px;
+    margin-bottom: -15px;
+  }
+
+  
+  

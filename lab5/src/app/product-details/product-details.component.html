@@ -1,0 +1,23 @@
+<div class="container">
+    <div *ngIf="product">
+      <h3>{{ product.name }}</h3>
+      <h4>{{ product.price | currency }}</h4>
+      <p>{{ product.description }}</p>
+
+      <div>
+        <img [src]="product.image[curr]" alt="{{ product.name }}" (mouseenter)="nextImage(product)" (mouseleave)="stopScrolling()">
+      </div>
+
+      <form [formGroup]="ratingForm" (ngSubmit)="rate()">
+        <label class="l1" for="rating">Rate this product:</label>
+        <input type="number" id="rating" formControlName="rating" min="0" max="5" />
+        <button type="submit" [disabled]="ratingForm.invalid">Submit Rating</button>
+      </form>
+
+      <p *ngIf="product.rating > 0">Average Rating: {{ product.rating | number: '1.2-2'}}</p>
+
+      <a [href]="product.link">Link</a>
+
+      <button type="button" (click)="addToCart(product)">Buy</button>
+    </div>
+</div>

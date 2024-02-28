@@ -1,0 +1,5 @@
+<select id="categoryDropdown" name="dropDown" (change)="selectedCategory($event)" >
+    <option value="" >Select an option</option>
+    <option *ngFor="let option of categories" [value]="option">{{ option }}</option>
+</select>
+  

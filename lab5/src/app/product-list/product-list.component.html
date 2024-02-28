@@ -1,0 +1,12 @@
+<h2>Products</h2>
+
+<div class="biglist">
+  <div  *ngFor="let product of categoryItems">
+    <div class="content">
+    <app-product-item [categoryItem]="product"
+                      (deleteItem)="removeItem($event)">
+    </app-product-item>
+  </div>
+  </div>
+</div>
+  

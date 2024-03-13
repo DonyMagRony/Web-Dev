@@ -1,0 +1,15 @@
+<!-- album-photos.component.html -->
+
+<button class="return-btn" (click)="return()">
+    Return Back
+</button>
+<button class="forward-btn" (click)="forward()">
+    Forward
+</button>
+
+<div *ngIf="photos && photos.length !== 0"> 
+    <div *ngFor="let photo of photos">
+        <img src="{{photo.url}}" alt="Photo">
+        <img src="{{photo.thumbnailUrl}}" alt="Thumbnail">
+    </div>
+</div>

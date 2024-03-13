@@ -1,0 +1,19 @@
+<button (click)="return()">
+  Return Back
+</button>
+<button (click)="forward()">
+  forward
+</button>
+<div *ngIf="loaded">
+    <h3>ID: {{album.id}}</h3>
+    <h4>{{album.title}}</h4>
+
+    <fieldset>
+      <label for="title">Title:</label>
+      <input type="text" [(ngModel)]="str" id="title"> <br />
+      <button (click)="updateAlbum()">Update</button>
+    </fieldset>
+
+    <a routerLink="./photos">ph</a>
+</div>
+  <p *ngIf="!loaded">Post detail page is loading...</p>

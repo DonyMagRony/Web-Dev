@@ -1,0 +1,40 @@
+/* albums.component.css */
+
+button {
+    margin-right: 10px; /* Add some spacing between buttons */
+  }
+  
+  fieldset {
+    margin-bottom: 20px; /* Add some space below the form fieldset */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default bullet points from the list */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Add some space between list items */
+  }
+  
+  a {
+    text-decoration: none; /* Remove default underline from anchor links */
+    color: #007bff; /* Set link color */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

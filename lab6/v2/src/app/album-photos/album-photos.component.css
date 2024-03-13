@@ -1,0 +1,21 @@
+/* album-photos.component.css */
+
+.return-btn, .forward-btn {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .return-btn:hover, .forward-btn:hover {
+    background-color: #0056b3; /* Darker blue background color on hover */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
